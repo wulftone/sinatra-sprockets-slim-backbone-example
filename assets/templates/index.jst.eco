@@ -1,0 +1,5 @@
+<ul>
+  <li>This is a list</li>
+  <li><%= "coffeescript!" %></li>
+  <li><%= 1 + 1 %></li>
+<ul>
