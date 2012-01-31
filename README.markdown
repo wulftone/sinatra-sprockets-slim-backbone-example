@@ -12,6 +12,12 @@ bundle exec thin start
 firefox localhost:3000
 ````
 
+### Heroku deployment
+
+When deploying to heroku, make sure you use the `--stack cedar` switch, or else it will complain about no javascript runtime:
+
+    heroku create my_app --stack cedar
+
 ### Explanation
 
 I wanted a simple way to get a backbone.js application up and running quickly, so I made this thing!
