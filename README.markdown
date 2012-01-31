@@ -14,6 +14,21 @@ firefox localhost:3000
 
 ### Explanation
 
+I wanted a simple way to get a backbone.js application up and running quickly, so I made this thing!
+
+Basically, it's the barest-of-bones version with embedded examples that you should overwrite to get started.
+It has the following stuffs:
+
+* [Backbone.js](http://documentcloud.github.com/backbone/)
+* [Sass](http://sass-lang.com/)
+* [Slim](http://slim-lang.com/)
+* [Sinatra](http://www.sinatrarb.com/)
+* [Sinatra-reloader](http://www.sinatrarb.com/contrib/reloader.html)
+* [Sprockets](https://github.com/sstephenson/sprockets)
+* [Tilt](https://github.com/rtomayko/tilt)
+* [Underscore.js](http://documentcloud.github.com/underscore/)
+* [Zepto.js](http://zeptojs.com/)
+
 `app.rb` is a Sinatra application that is served from `/`
 
 `config.ru` sets up a rackable Sprockets::Environment instance with
