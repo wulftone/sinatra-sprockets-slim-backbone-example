@@ -1,9 +1,9 @@
 require 'bundler'
 Bundler.setup
 require 'sinatra/base'
-require 'sprockets'
 require 'sinatra'
 require "sinatra/reloader" if development?
+require 'sprockets'
 require 'slim'
 require './app'
 
