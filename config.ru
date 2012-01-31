@@ -1,10 +1,7 @@
+require 'rubygems'
 require 'bundler'
-Bundler.setup
-require 'sinatra/base'
-require 'sinatra'
+Bundler.require
 require "sinatra/reloader" if development?
-require 'sprockets'
-require 'slim'
 require './app'
 
 map '/assets' do
