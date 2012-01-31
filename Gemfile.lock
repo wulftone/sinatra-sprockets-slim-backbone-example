@@ -58,7 +58,6 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   eco
-  execjs
   rake
   sass
   sinatra
