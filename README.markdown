@@ -20,6 +20,7 @@ Basically, it's the barest-of-bones version with embedded examples that you shou
 It has the following stuffs:
 
 * [Backbone.js](http://documentcloud.github.com/backbone/)
+* [Eco](https://github.com/sstephenson/eco)
 * [Sass](http://sass-lang.com/)
 * [Slim](http://slim-lang.com/)
 * [Sinatra](http://www.sinatrarb.com/)
