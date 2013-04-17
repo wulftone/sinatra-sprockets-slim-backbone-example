@@ -8,9 +8,12 @@ for the initial inspiration to get this thing working.
 ````
 git clone git://github.com/wulftone/sinatra-sprockets-slim.git
 cd sinatra-sprockets-slim
+bundle install
 bundle exec thin start
 firefox localhost:3000
 ````
+
+It should work with both ruby 1.9.3 and ruby 2.0.0.
 
 ### Heroku deployment
 
